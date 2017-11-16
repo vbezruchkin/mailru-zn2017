@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+    <!-- <meta name="apple-mobile-web-app-capable" content="yes" /> -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link href="build/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- <div class="mg-main mg-main_game"> -->
+<div class="mg-main">
+    <div class="mg-logo" id="logo"></div>
+    <div class="mg-button mg-button_start js-control"></div>
+    <div id="clock" class="mg-timer" style="display:none;">00:00:00</div>
+    
+    <div id="slots" class="container" style="display:none;">
+		<div class="mg-slot-wrapper">
+			<div id="slot1" class="slot mg-slot-box mg-slot-box_1" style="background-position: 32px 399px;"></div>
+			<div id="slot2" class="slot mg-slot-box mg-slot-box_2" style="background-position: 32px 122px;"></div>
+			<div id="slot3" class="slot mg-slot-box mg-slot-box_3" style="background-position: 32px 676px;"></div>
+			<div id="slot4" class="slot mg-slot-box mg-slot-box_4" style="background-position: 32px 1230px;"></div>
+			<div id="slot5" class="slot mg-slot-box mg-slot-box_5" style="background-position: 32px 2061px;"></div>
+		</div>
+	</div>
+</div>
+<div class="mg-overlay">
+	<<div class="mg-button mg-button_tryagain js-control"></div>
+	<<div class="mg-button mg-button_win js-control"></div>
+</div>
+
+
+<audio id="stop"><source src="build/sounds/stop.mp3" type="audio/mpeg"></audio>
+<audio id="start"><source src="build/sounds/start.mp3" type="audio/mpeg"></audio>
+<audio id="win"><source src="build/sounds/win.mp3" type="audio/mpeg"></audio>
+<audio id="loose"><source src="build/sounds/loose.mp3" type="audio/mpeg"></audio>
+
+
+</body></html>
+<script src="build/js/vendors.js"></script>
+<script src="build/js/main.min.js"></script>
